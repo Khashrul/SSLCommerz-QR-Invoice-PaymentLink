@@ -107,6 +107,13 @@ $post_data['is_sent_email'] = "yes";
 $post_data = array();
 $post_data['invoice_id'] = (isset($_POST['invid'])) ? $_POST['invid'] : '';
 ```
+* __Step 7:__ Grab API response from below parameter.
+```
+Invoice - $YOUROBJECT->generatedInvoice;
+Cancellation - $YOUROBJECT->cancelInvoiceResponse;
+Status - $YOUROBJECT->statusResponse;
+Validator - $YOUROBJECT->validationResponse; // [0]- true/false [1]- validation response
+```
 
 
 ### Installation of Example Project:
