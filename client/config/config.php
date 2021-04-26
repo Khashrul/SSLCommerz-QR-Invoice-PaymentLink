@@ -9,5 +9,5 @@ if (!defined('STOREPASS')) {
 }
 
 if (!defined('ENV')) {
-    define('ENV', false);
+    define('ENV', false); // true for live
 }
